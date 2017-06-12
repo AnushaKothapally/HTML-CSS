@@ -1,0 +1,130 @@
+<html>
+<head>
+<title> Page Partition</title> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+<style> 
+    .fullwidthdiv{
+        width:100%;
+    }
+    #header{
+        height: 80px;
+    }
+    #bottom{
+        height: 157px;
+        color:brown;
+        background-color: cornflowerblue;
+    }
+    #main{
+        height: 70%;
+        background-color: cornflowerblue;
+    }
+    #removeicon{
+        text-align: right;
+        font-size: 20px;
+        left: 1200px;
+        top:10px;
+    }
+    h1{
+        margin-top: 5px;
+        margin-bottom: 3px;
+        font-size: 20px;
+        text-align: center;
+    }
+    p,#continue{
+        text-align: center;
+    }
+    #content,#help{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: azure;
+    }
+    #help{
+        font-size: 16px;
+    }
+    #iconcontainer{
+    margin-top: 40px;
+    margin-left: 400px;
+        margin-bottom: 20px;
+    
+    }
+    #books{
+        font-size: 100px;
+        padding: 10px;
+    }
+    #bookcontainer,#lecturecontainer,#both{
+        text-align: center;
+        width:150px;
+        background-color: white;
+        border-radius: 8px;
+        display: inline-block;
+        margin-right: 10px;
+        
+       
+    }
+    #hr1{
+        color:black;
+        border:2px solid;
+        width: 80%;
+        text-align: center;
+        opacity: 0.2;
+        margin-bottom: 30px;
+    }
+    #hr2{
+       color:white; 
+        opacity: 0.5;
+        margin: 0px;
+        padding-bottom: 40px;
+    }
+    #continue{
+        color: azure;
+    }
+    #elementname1,#elementname{
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+</style>
+</head>
+<body>
+  <div id="header" class="fullwidthdiv">
+      
+      <i id="removeicon" class="glyphicon glyphicon-remove"></i>
+      <h1> Register and login</h1>
+      <p id="caption"> It's a free service.</p>
+    </div>
+    <div id="main" class="fullwidthdiv">
+ <p id="content"> Login we will help you with thousands of resources and lectures.</p>
+    <p id="help"> Do you need help with understading concepts?</p>
+        <div id="iconcontainer">
+            <div id="bookcontainer">           
+                <i id="books" class="glyphicon glyphicon-book"></i>
+                <span id="elementname">Material</span>
+                </div>
+            <div id="lecturecontainer">
+            <i id="books" class="glyphicon glyphicon-play-circle"></i>
+                <span id="elementname1">Video Lectures</span>
+            </div>
+             <div id="both">
+                 <i id="books" class="glyphicon glyphicon-hand-down"></i>
+                <span id="elementname1">Both</span>
+            </div> 
+        </div>
+        <hr id="hr1">
+        <div id="continue">
+        <span >Select the requirement to continue.</span>
+        </div>
+    </div>
+    <footer>
+    <div id="bottom" class="fullwidthdiv">
+        <hr id="hr2">
+       <p id="footer">Footer Section </p> 
+    </div>
+    
+    </footer>
+    
+</body>
+</html>
